@@ -1,0 +1,13 @@
+# 1. 忽略所有文件和文件夹
+/*
+
+# 2. 允许上传 .gitignore 文件本身
+!.gitignore
+
+# 3. 允许上传 Classes 文件夹及其所有内容
+!Classes/
+!Classes/**
+
+# 4. 允许上传 Resources 文件夹及其所有内容
+!Resources/
+!Resources/**
