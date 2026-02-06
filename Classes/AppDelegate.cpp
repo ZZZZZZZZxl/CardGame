@@ -88,13 +88,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setDisplayStats(true);
     director->setAnimationInterval(1.0 / 60);
 
-    //  ´´½¨ GameController
+    //  åˆ›å»º GameController
     auto gameController = new controllers::GameController();
 
-    // ³õÊ¼»¯ÓÎÏ·Âß¼­
-    gameController->startGame(2);
+    // åˆå§‹åŒ–æ¸¸æˆé€»è¾‘
+    gameController->startGame(2); // é€‰æ‹©å…³å¡
 
-    // Ìí¼Ó GameView µ½ Scene
+    // æ·»åŠ  GameView åˆ° Scene
     auto scene = cocos2d::Scene::create();
     scene->addChild(gameController->getGameView());
 
